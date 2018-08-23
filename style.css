@@ -1,0 +1,166 @@
+body {
+    background-color: #E2E5E0;
+    line-height: 154%;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.site-content {
+	background-color:#fff;
+	width: 1250px;
+	height: inherit;
+	margin: 0 auto;
+	margin-top: 20px; 
+}
+
+.nom {
+	padding: 0;
+	margin-right: 100px;
+	/*margin-left: 350px;*/
+	margin-top: 90px;
+	/*margin-bottom: 30px;*/
+	width: 30%;
+	color: #424242;
+	/*background-color: yellow;*/
+
+	/*NB:la propriete float et display sont substituables
+	elles produisent chacunele meme effet sur la page.*/
+
+	display: inline-block;
+	float: right;
+	font-size: 35px;
+	text-align: right;
+	opacity: 0.8;
+}
+.premierp {
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+}
+.premierpp {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo {
+	margin-left: 300px;
+	margin-top: 90px;
+	/*margin-bottom: 30px;*/
+	/*background-color: lightblue;*/
+	width: 35%;
+	float: left;
+}
+
+hr {
+ 
+}
+
+.image {
+	margin-top: 0;
+	margin-left: 300px;
+	margin-right: 100px;
+}
+
+.sidebar {
+	max-width: 200px;
+	position: relative;
+	top: 70px;
+}
+
+.sidebar_img {
+	margin: 60px 0 15px 70px;
+	/*background-color: yellow;*/
+	/*padding: 15px;*/
+	float: left;
+	width: 100px;
+	height: 60px;
+
+}
+
+.footer {
+	width: inherit;
+}
+
+/*style du bloc complet des 3images et
+leurs textes en dessous*/
+.images {
+	margin: 15px 100px 0px 300px;
+	width: inherit;
+}
+
+h2 {
+	text-decoration-style: none;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	color:grey;
+	font-weight: lighter;
+	/*background-color: lightblue;*/
+	width: 300px;
+	padding:10px;
+	margin-left: 300px;
+	margin-bottom: 0;
+	opacity: 0.7;
+	letter-spacing: 0.090em;
+}
+
+h2:hover {
+	color: green;
+}
+
+.images p {
+	text-decoration-style: none;
+	font-family: 'Montserrat' ,sans-serif; 
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 0;
+	width: 100%;
+	color:#424242;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	text-align: center;
+	opacity: 0.9;
+}
+
+}
+
+.img {
+	padding: 0;
+	margin: 0;
+}
+
+/*style du bloc image plus texte
+en dessous*/
+.imgTx1 , .imgTx2 , .imgTx3 {
+	float: left;
+	margin-right: 15px;
+	
+}
+
+span {
+	text-transform: lowercase;
+	font-weight: lighter;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0.6;
+	cursor: pointer;
+	letter-spacing: 0;
+}
+
+/*responsive
+@media only screen and (min-width: 480px ) {
+	.site-content {
+		background-color:;
+	}
+	
+}
